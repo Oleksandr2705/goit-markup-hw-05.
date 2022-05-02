@@ -23,7 +23,7 @@
           <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
           <ul class="header-list">
             <li class="item">
-              <a class="link current" href="./index.html">Студия</a>
+              <a class="link current link-line" href="./index.html">Студия</a>
             </li>
             <li class="item">
               <a class="link" href="./portfolio.html">Портфолио</a>
@@ -43,7 +43,7 @@
               aria-label="иконка конверта"
             >
               <svg class="mail-icon" width="16" height="12">
-                <use href="./images/icons.svg#icon-mail"></use></svg
+                <use href="./images/icons.svg#icon-mail-new"></use></svg
               >info@devstudio.com</a
             >
           </li>
@@ -56,7 +56,7 @@
               aria-label="иконка телефона"
             >
               <svg class="tel-icon" width="10" height="16">
-                <use href="./images/icons.svg#icon-tel"></use></svg
+                <use href="./images/icons.svg#icon-tel-new"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
@@ -71,7 +71,7 @@
             эффективные решения<br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="button-hero">Заказать услугу</button>
+          <button class="button-hero" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!--Наши преймущества-->
@@ -132,13 +132,37 @@
           <h2 class="our-work-title">Чем мы занимаемся</h2>
           <ul class="our-work-list">
             <li class="item">
-              <img src="./images/foto1.jpg" alt="foto1" width="370" height="294" />
+              <img
+                src="./images/our-work-section/pic-1.jpg"
+                alt="програмирует"
+                width="370"
+                height="294"
+              />
+              <div class="our-work-label">
+                <h3 class="work-label-title">Десктопные приложения</h3>
+              </div>
             </li>
             <li class="item">
-              <img src="./images/foto2.jpg" alt="foto2" width="370" height="294" />
+              <img
+                src="./images/our-work-section/pic-2.jpg"
+                alt="делает логотипы"
+                width="370"
+                height="294"
+              />
+              <div class="our-work-label">
+                <h3 class="work-label-title">Мобильные приложения</h3>
+              </div>
             </li>
             <li class="item">
-              <img src="./images/foto3.jpg" alt="foto3" width="370" height="294" />
+              <img
+                src="./images/our-work-section/pic-3.jpg"
+                alt="ретуширует"
+                width="370"
+                height="294"
+              />
+              <div class="our-work-label">
+                <h3 class="work-label-title">Дизайнерские решения</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -151,8 +175,8 @@
             <li class="item">
               <img
                 class="our-team-list-card"
-                src="./images/people1.jpg"
-                alt="people1"
+                src="./images/our-team-section/product-designer.jpg"
+                alt="портрет мужчины"
                 width="270"
               />
               <div class="media-team">
@@ -217,8 +241,8 @@
             <li class="item">
               <img
                 class="our-team-list-card"
-                src="./images/people2.jpg"
-                alt="people2"
+                src="./images/our-team-section/front-end-developer.jpg"
+                alt="портрет женщины в очках"
                 width="270"
                 height="260"
               />
@@ -284,8 +308,8 @@
             <li class="item">
               <img
                 class="our-team-list-card"
-                src="./images/people3.jpg"
-                alt="people3"
+                src="./images/our-team-section/marketing.jpg"
+                alt="портрет мужчины"
                 width="270"
                 height="260"
               />
@@ -351,8 +375,8 @@
             <li class="item">
               <img
                 class="our-team-list-card"
-                src="./images/people4.jpg"
-                alt="people4"
+                src="./images/our-team-section/ui-designer.jpg"
+                alt="портрет мужчины"
                 width="270"
                 height="260"
               />
@@ -418,6 +442,7 @@
           </ul>
         </div>
       </section>
+      <!--Наши клиенты-->
       <section class="clients-section">
         <div class="container">
           <h2 class="our-team">Постоянные клиенты</h2>
@@ -428,7 +453,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="иконка"
+                aria-label="иконка компании"
               >
                 <svg class="clients-logo" width="170" height="92">
                   <use href="./images/icons.svg#icon-client-1"></use>
@@ -441,9 +466,8 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="иконка"
+                aria-label="иконка компании"
               >
-              <!-- Заливка контейнера клиента  -->
                 <svg class="clients-logo">
                   <use href="./images/icons.svg#icon-client-2"></use>
                 </svg>
@@ -455,7 +479,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="иконка"
+                aria-label="иконка компании"
               >
                 <svg class="clients-logo">
                   <use href="./images/icons.svg#icon-client-3"></use>
@@ -468,7 +492,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="иконка"
+                aria-label="иконка компании"
               >
                 <svg class="clients-logo">
                   <use href="./images/icons.svg#icon-client-4"></use>
@@ -481,7 +505,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="иконка"
+                aria-label="иконка компании"
               >
                 <svg class="clients-logo">
                   <use href="./images/icons.svg#icon-client-5"></use>
@@ -494,7 +518,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="иконка"
+                aria-label="иконка компании"
               >
                 <svg class="clients-logo">
                   <use href="./images/icons.svg#icon-client-6"></use>
@@ -583,5 +607,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button class="button-close" type="button" data-modal-close>
+          <svg class="close-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
