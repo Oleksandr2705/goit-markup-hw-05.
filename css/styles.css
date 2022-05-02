@@ -53,14 +53,14 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  
+  /* outline: 2px solid tomato; */
 }
 
 /* ---------------------------------ШАПКА САЙТА----------------------------------- */
 .header {
   border-bottom: 1px solid #eeeeee;
 
- 
+  /* outline: 2px solid tomato; */
 }
 .nav-container {
   display: flex;
@@ -263,7 +263,7 @@ img {
 .section-benefits {
   padding-top: 94px;
   padding-bottom: 94px;
- 
+  /* outline: 2px solid tomato; */
 }
 .benefits-item {
   display: flex;
@@ -361,7 +361,7 @@ img {
   padding-bottom: 94px;
   background-color: #f5f4fa;
 
-  
+  /* outline: 2px solid tomato; */
 }
 .our-team {
   margin-bottom: 50px;
@@ -416,7 +416,7 @@ img {
   justify-content: center;
   align-items: center;
 
-  
+  /* outline: 1px solid tomato; */
 }
 .link-team-icon {
   display: flex;
