@@ -54,12 +54,13 @@ img {
   padding-right: 15px;
   width: 1200px;
   
+}
 
-/* -----ШАПКА САЙТА--------- */
+/* ---------------------------------ШАПКА САЙТА----------------------------------- */
 .header {
   border-bottom: 1px solid #eeeeee;
 
-  
+ 
 }
 .nav-container {
   display: flex;
@@ -98,7 +99,6 @@ img {
   background-color: var(--hover-buton-color);
   animation: bounce-left 0.4s both;
 }
-/*--------Логотип ---------*/
 .logo {
   margin-right: 93px;
   font-family: Raleway;
@@ -160,7 +160,6 @@ img {
 .auth-nav-list .item:last-child {
   margin-right: 0px;
 }
-/*------mail ---------*/
 .mail-icon,
 .tel-icon {
   margin-right: 10px;
@@ -169,7 +168,6 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*-------tel---------*/
 .link-mail,
 .link-tel {
   font-style: normal;
@@ -199,7 +197,7 @@ img {
   color: var(--hover-buton-color);
 }
 
-/* -------ГЛАВНЫЙ КОНТЕНТ-------- */
+/* ---------------------------------ГЛАВНЫЙ КОНТЕНТ----------------------------------- */
 
 .hero-section {
   max-width: 1600px;
@@ -265,7 +263,7 @@ img {
 .section-benefits {
   padding-top: 94px;
   padding-bottom: 94px;
-  
+ 
 }
 .benefits-item {
   display: flex;
@@ -357,11 +355,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-title-color);
 }
-/* ------НАША КОМАНДА------ */
+/* ---------------------------------НАША КОМАНДА----------------------------------- */
 .our-team-section {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
+
   
 }
 .our-team {
@@ -417,7 +416,7 @@ img {
   justify-content: center;
   align-items: center;
 
- 
+  
 }
 .link-team-icon {
   display: flex;
@@ -461,7 +460,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* ----------НАШИ КЛИЕНТЫ-------- */
+/* ---------------------------------НАШИ КЛИЕНТЫ----------------------------------- */
 
 .clients-section {
   padding-bottom: 94px;
@@ -517,7 +516,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ---------СТРАНИЦА ПОРТФОЛИО----------- */
+/* ---------------------------------СТРАНИЦА ПОРТФОЛИО----------------------------------- */
 
 .portfolio-section {
   padding-top: 94px;
@@ -606,7 +605,7 @@ img {
 .portfolio-section-list .item {
   margin-right: 30px;
   margin-bottom: 30px;
-  
+  /* outline: 1px solid tomato; */
 }
 .portfolio-section-list .item:nth-child(3n) {
   margin-right: 0;
@@ -637,7 +636,7 @@ img {
   border-right: 1px solid #eeeeee;
 }
 
-/* --------ПОДВАЛ--------- */
+/* ---------------------------------ПОДВАЛ----------------------------------- */
 .footer {
   padding-bottom: 60px;
   padding-top: 60px;
